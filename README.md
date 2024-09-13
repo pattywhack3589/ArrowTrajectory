@@ -1,14 +1,10 @@
-# Data Structures and Algorithms II – C950
+# Arrow Trajectory Calculations
 
-## WGUPS Routing Program
+This is a personal project I completed based on a conversation with a friend who's an amateur competitive archer. He participates in an event called "unknown distance 3D archery" where the archer estimates/guesses the how far away the target is from them, then uses that estimate to aim their bow and fire an arrow at the target. The event not only challenges the archer's archery mechanics such as steadiness and control of the bow, but also their distance judgment. 
 
-<p align="center">
-<img src="https://i.imgur.com/VRWMQxw.png" height="80%" width="80%" alt="Frankie Grande, Ariana Grande et al. are posing for a picture"/>
-</p>
+After attending an event with him, I said I was curious if a faster arrow velocity would benefit a shooter in general. Namely, if an arrow flies faster, i.e. a flatter trajectory, would that help counter any potential unsteadiness, while simultaneously absorbing some error from distance misjudgment. My hypothesis was that two shooters, each guessing the same target distance, but one having a faster arrow velocity and the other a slower arrow velocity, would have different average distances from bullseye after shooting a group of arrows.
 
-### [YouTube Explanation with Demonstration](https://youtu.be/lHeVDmgpKy4)
-
-This is a project specified by WGU to solve a package delivery routing problem, which is essentially the traveling salesman problem with a dedicated starting node and a few restrictions/requirements. For my solution, I implemented the nearest neighbor algorithm which operates with a time-complexity of O(n).
+This project was an effort to test that hypothesis. 
 
 ## Usage
 
